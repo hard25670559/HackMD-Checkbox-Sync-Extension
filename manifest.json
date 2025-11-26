@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "HackMD Checkbox Sync Extension",
+  "version": "1.0",
+  "description": "同步 HackMD preview 視窗的 HTML checkbox 狀態到 edit 視窗的 HTML 屬性。",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://hackmd.io/*"],
+      "js": ["inject.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["content.js"],
+      "matches": ["*://hackmd.io/*"]
+    }
+  ]
+}
