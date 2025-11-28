@@ -13,7 +13,6 @@
     "256": "icons/256.png",
     "512": "icons/512.png"
   },
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["*://hackmd.io/*"],
