@@ -25,11 +25,6 @@
 - 匹配 preview 和 edit 視窗中的 checkbox 對應關係（可能需要基於位置或 ID）。
 - 處理 Markdown 解析和更新，避免破壞其他內容。
 
-## 專案名稱建議
-
-- **專案名稱**：HackMD Checkbox Sync Extension
-- **套件名稱**：hackmd-checkbox-sync
-
 ## 實施步驟
 
 1. 創建 Chrome Extension 架構（manifest.json, background.js, content.js 等）。
